@@ -17,7 +17,6 @@ int main()
     var4 = var1 + var2;
     
     printf("var1 contains %d \nvar2 contains %f \nvar3 contains %c \nvar4 contains %f", var1, var2, var3, var4);
-
     printf("\nvar1 + var2 = %f\n", var4);
 
     var3 = 'h';
