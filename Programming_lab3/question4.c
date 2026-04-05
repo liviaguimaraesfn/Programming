@@ -8,11 +8,11 @@ int main()
     float number_1, number_2, number_3, sum, average, percentage = 0; // ensure all variables are float numbers
 
     // variables being declared
-    number_1 = printf("Enter first floating-point number: ");
+    printf("Enter first floating-point number: ");
     scanf("%f", &number_1); // assigning inputs to the variables
-    number_2 = printf("Enter second floating-point number: ");
+    printf("Enter second floating-point number: ");
     scanf("%f", &number_2);
-    number_3 = printf("Enter third floating-point number: ");
+    printf("Enter third floating-point number: ");
     scanf("%f", &number_3);
 
     sum = number_1 + number_2 + number_3; // sum calculation
