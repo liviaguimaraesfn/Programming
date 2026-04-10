@@ -1,5 +1,6 @@
 /* Program description: basic standard keyboard inputs and outputs fundamentals
 Author: Lívia Ferreira Guimarães Neves */
+
 #include <stdio.h>
 
 int main()
