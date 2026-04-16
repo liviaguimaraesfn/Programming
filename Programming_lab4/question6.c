@@ -16,7 +16,7 @@ int main()
     int india_timeZone = +4; // India is 4 hours ahead of Ireland
 
     // calculating and displaying the different time zones
-    printf("\nThe time in Ireland is %02d:%02d.\n", ireland_hours, ireland_minutes);
+    printf("\nThe time in Ireland is %02d:%02d.\n", ireland_hours, ireland_minutes); // using %02d to display time with two digits
     printf("The time in Brazil is %02d:%02d.\n", (ireland_hours + brazil_timeZone + 24) % 24, ireland_minutes); // added +24 since it is negative
     printf("The time in Ukraine is %02d:%02d.\n", (ireland_hours + ukraine_timeZone) % 24, ireland_minutes);
     printf("The time in Nigeria is %02d:%02d.\n", (ireland_hours + nigeria_timeZone) % 24, ireland_minutes);
