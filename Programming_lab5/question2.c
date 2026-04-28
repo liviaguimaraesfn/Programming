@@ -1,5 +1,6 @@
-/* Program description: reading and calculating specific processes on a positive integer based on if it is even or odd.
-Sequence based: 1. if the number is even, halve it. 2. if the number is odd, multiply by 3 and add 1
+/* Program description: reading and calculating specific processes on a positive integer based on if it is even or odd, until it reaches 1, and counting the number of times. Sequence based:
+1. if the number is even, halve it.
+2. if the number is odd, multiply by 3 and add 1.
 Author: Lívia Ferreira Guimarães Neves */
 
 #include <stdio.h>
@@ -28,7 +29,7 @@ int main()
         }
     }
 
-    printf("The steps are = %d\n", counter);
-    
+    printf("Final value is %d, and number of steps is %d.\n", positive_integer, counter);
+
     return 0;
 }
