@@ -37,5 +37,14 @@ int main()
         }
     }
 
+    // finding the sum of all the odd integers in the range 1 to 99
+    int sum = 0;
+
+    for (int i = 1; i <= 99; i += 2)
+    {
+        sum = sum + i;
+    }
+    printf("Sum of odd integers from 1 to 99 is equal to %d.\n", sum);
+
     return 0;
 }
